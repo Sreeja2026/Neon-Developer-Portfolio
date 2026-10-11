@@ -1,0 +1,93 @@
+Build a complete, responsive developer portfolio single-page web application for Sreeja Bussa using React (Vite) and Tailwind CSS. The design must feature a futuristic, dark-mode terminal/cyber aesthetic with an interactive neon-cyan constellation node mesh on the canvas background.
+
+### 1. Visual & UI/UX Style Requirements
+- Background: Pitch-dark background (#03070b) layered with a clean, lightweight HTML5 interactive canvas animation displaying connected glowing neon cyan (#00d2ff) nodes that subtly react to mouse movement.
+- Typography: Use Google Fonts 'Space Grotesk' for primary headings and 'JetBrains Mono' for metadata badges, categories, and tags.
+- Buttons & CTAs: Signature chamfered (cut-corner) buttons using CSS clip-path:
+  - Primary button: Solid neon cyan (#00d2ff) with dark text and a subtle glow on hover.
+  - Secondary/Social buttons: Dark semi-transparent background with a thin cyan border and hover glow.
+- Navigation: Fixed/sticky top navigation bar with a blurred backdrop (backdrop-blur-md), logo badge "SB", candidate name "SREEJA BUSSA", and smooth-scroll anchor links to #home, #projects, #research, #skills, #education, #achievements, and an external button for the Resume.
+
+### 2. Header & Hero Section
+- Header Badge: "SB" in a solid cyan box next to "SREEJA BUSSA".
+- Small uppercase tag: "CONTACT & STATUS" in cyan monospace text.
+- Hero Headline: "OPEN TO SDE, FULL-STACK, AND AGENTIC AI ROLES STARTING 2026."
+- Action Buttons (Render these as clickable <a> tags with real URLs and target="_blank" where applicable):
+  - EMAIL ME -> mailto:sreeja.bussa01@gmail.com
+  - LINKEDIN -> https://www.linkedin.com/in/sreeja-b-bb2148294/
+  - GITHUB -> https://github.com/Sreeja99893
+  - LEETCODE -> https://leetcode.com/u/Sreeja001/
+  - GEEKSFORGEEKS -> https://www.geeksforgeeks.org/profile/bussasreeja
+  - RESUME -> https://drive.google.com/file/d/1ydgLCxi5_4iBQmf5Dx4bpIHdYT3mJlTk/view?usp=sharing
+
+### 3. Projects Section (#projects)
+Display cards with dark translucent background, thin borders, hover states, tech badges, and clean bullet points. Include:
+
+1. Autonomous AI Software Engineer
+   - Category Badge: "AI Agents · Large Language Models · Software Engineering Automation"
+   - Tech Stack: "Python, LLMs, GitHub API, LangGraph, Docker, pytest, Git, FastAPI"
+   - Description: "An AI-powered software engineering agent designed to automate parts of the software development lifecycle. The system analyzes GitHub issues, explores codebases, identifies potential bugs, generates code modifications, and executes tests to validate proposed fixes. It combines LLM-based reasoning, repository tools, and an iterative debugging workflow to produce reliable, reviewable software patches."
+   - Key Features:
+     • Issue Understanding: Converts natural-language bug reports into actionable technical tasks.
+     • Codebase Exploration: Examines repository structures, searches relevant files, and traces potential causes of failures.
+     • Automated Code Repair: Generates targeted code modifications using issue descriptions and surrounding code context.
+     • Test-Driven Validation: Runs relevant tests, analyzes failures, and iteratively refines proposed fixes.
+     • Patch Generation: Produces reviewable code diffs and explanations for human approval before merging.
+     • Execution Isolation: Uses sandboxed environments to execute tests and limit the impact of generated code.
+   - Evaluation Approach: "Evaluate the agent on real-world software issues using issue-resolution rate, test-pass rate, regression frequency, execution time, and cost per task. Compare its performance with a simpler baseline to measure the benefits of reasoning and iterative repair."
+
+2. Automated Multi-Agent Data Analysis Platform
+   - Category Badge: "Distributed Systems · Multi-Agent Architecture"
+   - Tech Stack: "Python, Flask, Pandas, Multi-Agent Architecture"
+   - Description: "A multi-agent platform designed to automate data cleaning, preprocessing, and visual analytics over large datasets containing 100K+ rows."
+   - Key Features:
+     • Implemented specialized autonomous agents for null imputation, duplicate elimination, and trend detection.
+     • Developed Flask REST APIs integrated with vectorized Pandas routines to reduce manual data-cleaning effort by 60%.
+
+3. Bangla OCR Document Digitization System
+   - Category Badge: "Computer Vision · Neural Document Transcription"
+   - Tech Stack: "Python, PyTorch, OpenCV, Tesseract, Scikit-Learn"
+   - Description: "A deep learning OCR project focused on extracting and transcribing text from printed and handwritten Indic document images."
+   - Key Features:
+     • Implemented contour-based line and word segmentation alongside skew-correction algorithms using OpenCV.
+     • Fine-tuned an optical recognition network to accurately differentiate complex ligatures (Juktoborno), boosting accuracy by 18%.
+
+### 4. Separate Research Section (#research)
+Place this section immediately after Projects. Give it a distinct aesthetic border and clear status badge.
+
+- Title: Telugu OCR and Image Classification Using Deep Learning
+- Status Badge: "Status: Ongoing Research"
+- Category: "Computer Vision · Deep Learning · Optical Character Recognition · Telugu Language Processing"
+- Technologies: "Python, Deep Learning, Computer Vision, TensorFlow/PyTorch, OpenCV, OCR"
+- Description: "An ongoing research project exploring deep learning techniques for Telugu text recognition and image classification. The research focuses on extracting meaningful visual and textual information from images containing Telugu script, with the goal of improving recognition performance for a complex Indic language characterized by diverse character shapes, compound characters, and visual variations."
+- Broader Objective: "The project investigates image preprocessing, feature extraction, and deep learning architectures to support accurate classification and Telugu text recognition. The broader objective is to contribute to language-specific OCR systems capable of processing Telugu documents and image-based text more effectively."
+- Research Focus:
+  • Image Preprocessing: Explore image enhancement, noise reduction, and normalization to improve input quality.
+  • Deep Learning-Based Classification: Investigate neural network architectures for classifying Telugu script images or character categories.
+  • Telugu OCR: Explore character recognition and text extraction from images containing Telugu text.
+  • Model Evaluation: Analyze accuracy, precision, recall, F1-score, and character error rate, as appropriate for the task.
+  • Research and Optimization: Compare different approaches and investigate challenges associated with Telugu script recognition.
+
+### 5. Technical Skills Section (#skills)
+Grid of technical domains with cyan category headings:
+- Languages: Java, Python, C++, SQL, JavaScript
+- Frameworks & APIs: React.js, Node.js, Express.js, Flask, FastAPI
+- Agentic & ML: LangGraph, LLMs, PyTorch, TensorFlow, OpenCV, Scikit-Learn
+- DevOps & Tools: Docker, pytest, Git, GitHub API, Postman, Linux
+- Core Concepts: Data Structures & Algorithms, OOP, DBMS, OS, Computer Networks
+
+### 6. Education Section (#education)
+- BVRIT College of Engineering: B.Tech in Computer Science Engineering (Lateral Entry) | CGPA: 9.0 | 2025 – 2028 | Narsapur, India
+- Government Polytechnic, Masab Tank: Diploma in Computer Engineering | CGPA: 9.5 | 2022 – 2025 | Hyderabad, India
+
+### 7. Achievements & Open Source Section (#achievements)
+Card-based list with glowing bullet markers:
+- GirlScript Summer of Code (GSSoC) Contributor — 2025: "Contributed to the open-source community through GirlScript Summer of Code 2025, gaining experience with collaborative development workflows, Git and GitHub, code contributions, and community-driven software development. Focused on learning from real-world projects, improving problem-solving skills, and collaborating with contributors to understand open-source development practices."
+- Recognized in the Guinness World Records for participating in the Largest Agentic AI Hackathon by Google for Developers (2025).
+- Selected Participant, Agentathon 2025 organized by Google Developer Group (GDG) Hyderabad.
+- Academics Excellence Award 2025.
+
+### 8. Footer & Accessibility
+- Clean footer with copyright "© 2026 Sreeja Bussa" and all profile links repeated (Email, GitHub, LeetCode, GFG, LinkedIn, Resume).
+- Ensure all links have accessible aria-labels and use rel="noopener noreferrer" for security.
+- Fully responsive on mobile, tablet, and widescreen displays.
